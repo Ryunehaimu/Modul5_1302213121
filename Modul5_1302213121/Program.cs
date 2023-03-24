@@ -43,7 +43,7 @@ namespace Modul5_1302213121
             data.AddNewData(34.0f);
             data.AddNewData(56.0f);
             data.PrintAllData();
-            //1302213121
+            //1302213121-Dede Rahmat Fitriansyah
         }
     }
 }
