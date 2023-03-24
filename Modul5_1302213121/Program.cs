@@ -27,6 +27,14 @@ namespace Modul5_1302213121
                 }
             }
         }
+        public class Penjumlahan
+        {
+            public static void JumlahTigaAngka<T>(T a, T b, T c)
+            {
+                dynamic penjumlahan = (dynamic)a + (dynamic)b + (dynamic)c;
+                Console.WriteLine("Hasil Penjumlahan: " + penjumlahan);
+            }
+        }
         static void Main(string[] args)
         {
             SimpleDataBase<float> data = new SimpleDataBase<float>();
@@ -34,6 +42,8 @@ namespace Modul5_1302213121
             data.AddNewData(34.0f);
             data.AddNewData(56.0f);
             data.PrintAllData();
+            //1302213121
+            Penjumlahan.JumlahTigaAngka<float>(13, 02, 21);
         }
     }
 }
