@@ -37,13 +37,13 @@ namespace Modul5_1302213121
         }
         static void Main(string[] args)
         {
+            Penjumlahan.JumlahTigaAngka<float>(13, 02, 21);
             SimpleDataBase<float> data = new SimpleDataBase<float>();
             data.AddNewData(12.0f);
             data.AddNewData(34.0f);
             data.AddNewData(56.0f);
             data.PrintAllData();
             //1302213121
-            Penjumlahan.JumlahTigaAngka<float>(13, 02, 21);
         }
     }
 }
